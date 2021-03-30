@@ -2,6 +2,21 @@ package methods;
 
 public class Question1 {
 
+	// The output is:
+	
+Old Macdonald had a farm. EE-I-EE-I-O,
+And on that farm he had a cow, EE-I-EE-I-O.
+With a moo moo here and k, a moo moo there 
+
+Old Macdonald had a farm. EE-I-EE-I-O,
+And on that farm he had a dog, EE-I-EE-I-O.
+With a woof woof here and k, a woof woof there 
+
+Old Macdonald had a farm. EE-I-EE-I-O,
+And on that farm he had a frog, EE-I-EE-I-O.
+With a ribbet ribbet here and k, a ribbet ribbet there 
+
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		singOldMacDonald();
