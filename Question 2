@@ -1,0 +1,38 @@
+package methods;
+
+public class Question2 {
+
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			singOldMacDonald();
+		}
+			
+			
+			private static void singOldMacDonald() {
+			// TODO Auto-generated method stub
+			
+		
+
+
+			String animal, sound = null, verse;
+			
+			verse("duck", "quack");
+			System.out.println("");
+			
+			
+		}
+
+		private static void verse(String animal, String sound) {
+			// TODO Auto-generated method stub
+			{
+				System.out.println("Old Macdonald had a farm. EE-I-EE-I-O,");
+				System.out.println("And on that farm he had a " + animal + ", EE-I-EE-I-O.");
+				System.out.println("With a " + sound + " " + sound + " here and k, a " + sound + " " + sound + " there ");
+			}
+			
+
+				}
+		}
+
+
