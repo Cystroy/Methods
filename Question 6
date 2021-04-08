@@ -1,0 +1,21 @@
+package methods;
+
+public class Question6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		displayBox(6,3 );
+	}
+	public static void displayBox(int w, int h) {
+	int x,y;		
+	for (x = 0; x <h; x++) {
+		for (y = 0; y < w; y++) {
+			System.out.print("*");
+			
+		}
+		System.out.println("");
+	}
+	
+	}
+
+}
