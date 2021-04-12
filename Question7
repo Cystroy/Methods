@@ -1,0 +1,25 @@
+package methods;
+
+public class Question7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		rollDie();
+		int dice, side;
+		
+	}
+	public static void rollDie() {
+	
+	//Enter amount of dice
+		System.out.println("How many dice do you want to roll?");
+		
+	//Enter amount of sides
+		System.out.println("How many sides do these dice have?");
+		
+	//Output total 
+		
+	//Ask user 
+		
+	}
+
+}
