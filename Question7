@@ -1,25 +1,34 @@
 package methods;
 
+import java.util.Scanner;
+
 public class Question7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		rollDie();
-		int dice, side;
+		int dice, side, amount = 0;
+		Scanner sc=new Scanner(System.in);
 		
-	}
-	public static void rollDie() {
-	
 	//Enter amount of dice
 		System.out.println("How many dice do you want to roll?");
+		dice = sc.nextInt();
 		
 	//Enter amount of sides
 		System.out.println("How many sides do these dice have?");
+		side = sc.nextInt();
 		
-	//Output total 
+	//Output total
+		System.out.println("You rolled a " +amount);
+		amount = (int) (Math.random() * dice * side);
+		rollDie(dice, side);
 		
 	//Ask user 
+		System.out.println("Again?");
 		
+		
+	}
+	public static void rollDie(int dice, int side) {
+	//
 	}
 
 }
